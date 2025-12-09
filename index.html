@@ -1,43 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- render all elements normally -->
-    <link rel="stylesheet" href="Style/normalize.css">
-    <!-- font awesome library -->
-    <link rel="stylesheet" href="style/all.min.css">
-    <!-- main template css file -->
-    <link rel="stylesheet" href="Style/style.css">
+    <title>CV</title>
 </head>
 <body>
-    <h1>this is a heading</h1>
+
+    <h1>Omar Abdelaziz</h1>
+    <p>Email: omar@example.com</p>
+    <p>Phone: +20 123 456 7890</p>
+    <p>Location: Cairo, Egypt</p>
     <hr>
-    <br>
-    <img src="images/photo-1525609004556-c46c7d6cf023.jpg" alt="image" width="200" height="200">
-    <table rows="3" cols="3">rows</table>
-    <p title="hhh">This is a <br> paragraph with a line break.</p>
+
+    <h2>Profile</h2>
     <p>
-  My Bonnie lies over the ocean.
+        Highly motivated developer with strong skills in web development, problem solving, 
+        and building efficient, maintainable applications.
+    </p>
 
-  My Bonnie lies over the sea.
+    <h2>Experience</h2>
 
-  My Bonnie lies over the ocean.
+    <h3>Frontend Developer</h3>
+    <p><strong>Jan 2023 - Present</strong></p>
+    <p>
+        • Developed and maintained the e-commerce platform.<br>
+        • Improved website performance and user experience.<br>
+        • Collaborated with designers to build responsive interfaces.
+    </p>
 
-  Oh, bring back my Bonnie to me.
-</p>
-<pre>
-  My Bonnie lies over the ocean.
+    <h2>Projects</h2>
+    <p>
+        <strong>Brand Storefront:</strong> Custom e-commerce site with CMS.<br>
+        <strong>Design System:</strong> Component library with Storybook.
+    </p>
 
-  My Bonnie lies over the sea.
+    <h2>Education</h2>
+    <p>
+        <strong>B.Sc. Computer Science</strong><br>
+        Cairo University — 2016 to 2020
+    </p>
 
-  My Bonnie lies over the ocean.
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, TypeScript</li>
+        <li>Git, GitHub</li>
+        <li>Problem Solving</li>
+    </ul>
 
-  Oh, bring back my Bonnie to me.
-</pre>
-<br>
-<em>This text is emphasized</em>
+    <h2>Languages</h2>
+    <ul>
+        <li>Arabic — Native</li>
+        <li>English — Professional</li>
+    </ul>
+
+    <h2>Interests</h2>
+    <p>UI/UX, Open Source, Teaching, Performance Optimization</p>
+
+    <hr>
+
+    <!-- CONTACT FORM -->
+    <h2>Contact Me</h2>
+    <form  id="contactForm">
+        <label for="username">Your Name:<br>
+            <input id="username" type="text" name="name" required>
+        </label>
+        <br>
+        <br>
+
+        <label for="mail">Your Email:<br>
+            <input id="mail" type="email" name="email" required>
+        </label>
+        <br>
+        <br>
+
+        <label for="mess">Message:<br>
+            <textarea id="mess" name="message" rows="5" required></textarea>
+        </label>
+        <br>
+        <br>
+
+        <button type="submit">Send Email</button>
+        <button type="reset">Clear</button>
+    </form>
 
 </body>
 </html>
